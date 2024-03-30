@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 5px;
+            padding: 4px;
+        }
+        .msgg{
+        /* border: 1px solid black; */
+        margin-top: 5px;
+        color: #ff0000;
+        height: 2rem;
+        width: 70%;
+        }
+        input{
+            width: 60%;
+        }
+        .btn{
+            height: 2rem;
+            width: 6rem;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- <div id="mail">
+        Email<br>
+        <input class="email" type="text" placeholder="Example@email.com">
+        <p id="mail-error" class="error-msg"></p>
+    </div>
+    <br>
+
+    <div id="pass">
+        Password <br>
+        <input class="password" type="password" placeholder="Your Password">
+        <p id="password1-error" class="password-msg"></p>
+    </div>
+
+    <br>
+    <button type="submit">Submit</button> -->
+
+
+    <label for="email">Email</label><br>
+    <input type="email" name="email" id="email"><br>
+    <div id="email-error" class="msg"></div>
+    <br>
+    <label for="password">Password</label><br>
+    <input type="password" name="password" id="password" onchange="validatePassword()">
+    <div id="password-error" class="msg"></div>
+    <br>
+    <button id="btn" class="btn" type="submit">Submit</button>
+    <div class="extra"></div>
+    <script src="./script.js"></script>
+</body>
+
+</html>
